@@ -13,6 +13,8 @@ const ratingFive = document.querySelector("#ratingFive");
 const btnSubmit = document.querySelector("#submit");
 
 //Output
+const output = document.querySelector("#selected");
+//
 
 ratingOne.addEventListener("click", (event) =>{
     event.preventDefault();
@@ -41,5 +43,7 @@ ratingFive.addEventListener("click", (event) =>{
 
 btnSubmit.addEventListener("click", () => {
     ratingCard.style.display = "none";
+    //Value was ausgewählt wurde fehlt 
+    output.innerHTML = "You selected" + + "out of 5";
     thankYouCard.style.display = "block";
 })
