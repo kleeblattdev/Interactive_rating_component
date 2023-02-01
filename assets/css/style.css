@@ -141,6 +141,12 @@ p {
   border-radius: 30px;
 }
 
-/* javascript class */
+@media only screen and (max-width: 375px) {
+  .ratingCard {
+    padding: 1rem;
+    width: 350px;
+    height: 350px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

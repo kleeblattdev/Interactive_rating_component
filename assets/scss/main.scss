@@ -154,4 +154,12 @@ p{
     }
 }
 
-/* javascript class */
+//Media Query for mobile devices
+
+@media only screen and (max-width: 375px){
+    .ratingCard{
+        padding: 1rem;
+        width: 350px;
+        height: 350px;
+        }
+}
